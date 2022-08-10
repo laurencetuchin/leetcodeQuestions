@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="554fb9a3-742c-4b17-8267-1e086ac89ec5" name="Changes" comment="ContainsDuplicate217 brute force solution">
-      <change beforePath="$PROJECT_DIR$/src/problems/ContainsDuplicate217.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/ContainsDuplicate217.java" afterDir="false" />
+    <list default="true" id="554fb9a3-742c-4b17-8267-1e086ac89ec5" name="Changes" comment="ContainsDuplicate217 += forloop">
+      <change afterPath="$PROJECT_DIR$/src/problems/MaximumSubarray53.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +85,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660112161090</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ContainsDuplicate217 better HashSet">
+      <created>1660112491301</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1660112491301</updated>
+    </task>
+    <task id="LOCAL-00007" summary="ContainsDuplicate217 += forloop">
+      <created>1660113299799</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1660113299799</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,6 +118,8 @@
     <MESSAGE value="FirstBadVersion278 binary version search" />
     <MESSAGE value="SearchIndexPosition35 binary search o log n" />
     <MESSAGE value="ContainsDuplicate217 brute force solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="ContainsDuplicate217 brute force solution" />
+    <MESSAGE value="ContainsDuplicate217 better HashSet" />
+    <MESSAGE value="ContainsDuplicate217 += forloop" />
+    <option name="LAST_COMMIT_MESSAGE" value="ContainsDuplicate217 += forloop" />
   </component>
 </project>
