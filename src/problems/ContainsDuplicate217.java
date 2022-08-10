@@ -1,5 +1,8 @@
 package problems;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class ContainsDuplicate217 {
 
     // brute force solution
@@ -13,6 +16,15 @@ public class ContainsDuplicate217 {
         }
         return false;
     }
+
+    // better solution using HashSet
+
+    Set<Integer> foundDuplicate = new HashSet<Integer>();
+    for (int i : nums) {
+        if (foundDuplicate.contains(i)) return true;
+        foundDuplicate.add(i);
+    }
+    return false;
 
 
 
