@@ -38,30 +38,26 @@ public class TwoSum1 {
 
 
         // twoSum using two Pointer Solution
-    Arrays.sort(nums);
-    int pointer_one = 0;
-    int pointer_two = nums.length - 1;
-    // int[] result = new int[2];
+        // requires array to be sorted before using two pointers
+        Arrays.sort(nums);
+        int pointer_one = 0;
+        int pointer_two = nums.length - 1;
+        int[] result = new int[2];
 
-        while (pointer_one < pointer_two)
-
-    {
-        // int sum = nums[pointer_one] + nums[pointer_two];
-
-        if (nums[pointer_one] + nums[pointer_two] == target) {
-            // result[0] = pointer_one;
-            // result[1] = pointer_two;
-            return new int[] {pointer_one, pointer_two};
-            // return result;
-        } else if (nums[pointer_one] + nums[pointer_two] < target) {
+        while (pointer_one < pointer_two){
+         int sum = nums[pointer_one] + nums[pointer_two];
+        // checks sum is equal to target, if yes, puts values in results array, if no and less, pointerOne gets incremented, if no and higher, pointerTwo gets decremented.
+        if (sum == target) {
+             result[0] = pointer_one;
+             result[1] = pointer_two;
+        } else if (sum < target) {
             pointer_one++;
         } else {
             pointer_two--;
         }
     }
 
-    }
-        return new int[] {} ;
+        return result;
 
 
 }
