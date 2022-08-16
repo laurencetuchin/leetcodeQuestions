@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="554fb9a3-742c-4b17-8267-1e086ac89ec5" name="Changes" comment="TwoSum brute force solution">
-      <change beforePath="$PROJECT_DIR$/src/problems/TwoSum1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/TwoSum1.java" afterDir="false" />
+    <list default="true" id="554fb9a3-742c-4b17-8267-1e086ac89ec5" name="Changes" comment="refactor renaming for two pointer solution">
+      <change afterPath="$PROJECT_DIR$/src/problems/SquareOfSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660205393511</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="TwoSum using two pointer technique">
+      <created>1660539532919</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1660539532919</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,6 +151,8 @@
     <MESSAGE value="MaxSubarray53 Kadanes algorithm" />
     <MESSAGE value="Count Odd numbers in range" />
     <MESSAGE value="TwoSum brute force solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="TwoSum brute force solution" />
+    <MESSAGE value="TwoSum using two pointer technique" />
+    <MESSAGE value="refactor renaming for two pointer solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor renaming for two pointer solution" />
   </component>
 </project>
